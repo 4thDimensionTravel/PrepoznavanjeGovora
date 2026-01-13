@@ -21,7 +21,7 @@ ucitavanje.py: Zadužen za rad sa HuggingFace Transformers bibliotekom. Učitava
 
 mikrofon.py: Sadrži pomoćne funkcije za audio inženjering, uključujući izračunavanje RMS vrednosti i inicijalnu kalibraciju praga osetljivosti mikrofona.
 
-🛠️ Tehnologije i Model
+Tehnologije i Model
 Jezik: Python
 
 Model: classla/wav2vec2-xls-r-juznevesti-sr (Wav2Vec2 model optimizovan za srpski jezik)
@@ -32,8 +32,8 @@ Deep Learning: torch (PyTorch), transformers
 
 Networking: requests
 
-🧠 Ključne Karakteristike
-⚡ Inteligentna Kalibracija
+Ključne Karakteristike
+Inteligentna Kalibracija
 Program na samom početku snima jednu sekundu tišine kako bi izmerio nivo pozadinske buke. Prag detekcije glasa se postavlja na 5 puta jači nivo od izmerene buke, čime se sprečava aktivacija modela na šumove.
 
 🕒 Procesiranje u Realnom Vremenu
