@@ -36,5 +36,5 @@ Ključne Karakteristike
 Inteligentna Kalibracija
 Program na samom početku snima jednu sekundu tišine kako bi izmerio nivo pozadinske buke. Prag detekcije glasa se postavlja na 5 puta jači nivo od izmerene buke, čime se sprečava aktivacija modela na šumove.
 
-🕒 Procesiranje u Realnom Vremenu
+Procesiranje u Realnom Vremenu
 Dok govorite, sistem u intervalima ispisuje trenutnu transkripciju u konzolu. Kada detektuje tišinu dužu od 1.5 sekundi, sistem zaključuje da je rečenica gotova i šalje finalni tekst na servis.
