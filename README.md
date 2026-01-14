@@ -12,7 +12,6 @@ VAD (Voice Activity Detection): Praćenje RMS nivoa zvuka kako bi se razdvojio g
 
 Inference: Slanje audio segmenta u Wav2Vec2 model.
 
-Backend Integration: Slanje gotove transkripcije na web servis putem HTTP POST zahteva.
 
 Struktura Fajlova
 main.py: Centralna logika aplikacije. Upravlja audio strimom (input stream), redovima čekanja (queues) i nitima (threads) za slanje podataka.
